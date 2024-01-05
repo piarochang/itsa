@@ -6,11 +6,11 @@ int main(){
     scanf("%d",&num);
     for(int i = 1; i <= num; i++){
         if(i == 1){
-            printf("%d ", i);
+            printf("%d", i);
         }else{
-            printf("+ %d", i);
+            printf(" + %d", i);
         }
         total += i;
     }
-    printf("= %d\n",total);
+    printf(" = %d\n",total);
 }
